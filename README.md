@@ -17,6 +17,8 @@ Step-by-step usage guide:
   Audits a legacy or mirrored website before implementation.
 - `astro-capsule-compose`
   Plans a page or full site using the capsule system before coding.
+- `astro-capsule-create`
+  Creates or promotes a reusable capsule when a repeated section no longer fits the current catalog.
 - `astro-site-build`
   Builds or migrates a premium client site in Astro.
 - `astro-site-polish`
@@ -85,8 +87,9 @@ bash scripts/install-global.sh
 
 1. `/astro-reference-audit [source-path-or-url]`
 2. `/astro-capsule-compose [site-type-or-page-goal]`
-3. `/astro-site-build [client-or-source]`
-4. `/astro-site-polish [site-or-route]`
+3. `/astro-capsule-create [section-or-pattern]` when the catalog is not enough
+4. `/astro-site-build [client-or-source]`
+5. `/astro-site-polish [site-or-route]`
 
 For a full walkthrough, use the step-by-step guide in [`docs/usage-guide.md`](./docs/usage-guide.md).
 
@@ -155,6 +158,7 @@ astro-claude-skills/
 │       ├── astro-site-context/
 │       ├── astro-reference-audit/
 │       ├── astro-capsule-compose/
+│       ├── astro-capsule-create/
 │       ├── astro-site-build/
 │       └── astro-site-polish/
 ├── examples/

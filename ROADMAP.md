@@ -16,7 +16,6 @@ What already exists:
 What still needs work:
 
 - stronger proof from real use
-- better support for extending the capsule system
 - more resilience when working across longer conversations
 
 ## Priority 1: Add real before/after case studies
@@ -61,26 +60,28 @@ Success criteria:
 
 ## Priority 3: Create a new-capsule helper skill
 
+Status: implemented
+
 Why this matters:
 
 - the capsule catalog is useful, but real projects will keep needing new sections
 - right now, extending the system depends too much on manual judgment
 - a dedicated helper would make capsule creation more consistent and reusable
 
-Planned work:
+Implemented:
 
-- add a `new-capsule` or `capsule-extraction` helper skill
-- define a repeatable workflow for:
+- added an `astro-capsule-create` helper skill
+- defined a repeatable workflow for:
   - deciding whether a section should become a capsule
   - naming it generically
   - defining its slots and constraints
   - deciding whether it belongs in shared capsules or stays site-specific
-- add references and checklists for capsule promotion
+- added output format guidance and a worked example
 
-Success criteria:
+Result:
 
 - one reusable skill for creating or promoting capsules
-- one worked example included in docs
+- one worked example included in the skill references
 
 ## Priority 4: Add a simple installer for `~/.claude/skills`
 
@@ -147,7 +148,6 @@ Planned work:
 
 ### v0.3
 
-- add the new-capsule helper skill
 - add a second real case study
 - tighten skill prompts and output formats
 

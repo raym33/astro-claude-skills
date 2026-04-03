@@ -63,6 +63,8 @@ The suite is split into focused skills:
   Reads a source site and extracts IA, must-keep copy, image needs, and capsule mappings.
 - `astro-capsule-compose`
   Plans the page sequence before implementation.
+- `astro-capsule-create`
+  Decides whether a missing repeated section should become a shared capsule or stay site-specific.
 - `astro-site-build`
   Builds or migrates the actual Astro site.
 - `astro-site-polish`
@@ -113,7 +115,28 @@ Expected result:
 - which parts need a custom Astro component
 - whether a missing capsule should be ported first
 
-### Step 3: Build the site
+### Step 3: Create a new capsule when needed
+
+If the current catalog is not enough and a repeated section needs a clean reusable contract:
+
+```text
+/astro-capsule-create service overview grid
+```
+
+Use it when:
+
+- a section keeps reappearing across projects
+- forcing an existing capsule would weaken the site
+- you need to decide whether the pattern should become shared or stay local
+
+Expected result:
+
+- a generic capsule name
+- a reusable capsule brief
+- a clear decision: shared now, shared later, or site-specific only
+- an Astro implementation target
+
+### Step 4: Build the site
 
 Use the build skill to implement the actual project:
 
@@ -134,7 +157,7 @@ Expected result:
 - local assets copied into `public/`
 - capsule reuse prioritized over weak one-off sections
 
-### Step 4: Polish for delivery
+### Step 5: Polish for delivery
 
 Once the site is implemented, run the finishing pass:
 
@@ -162,9 +185,10 @@ For a migration from a legacy or mirrored website, the normal sequence is:
 
 1. Audit the source
 2. Compose the capsule plan
-3. Build the Astro site
-4. Polish the result
-5. Run project checks
+3. Create a new capsule if the catalog is insufficient
+4. Build the Astro site
+5. Polish the result
+6. Run project checks
 
 Typical final commands in the Astro project:
 

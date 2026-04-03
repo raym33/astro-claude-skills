@@ -21,6 +21,10 @@ Then open Claude Code inside your Astro project and use:
 ```
 
 ```text
+/astro-capsule-create service overview grid
+```
+
+```text
 /astro-site-build /path/to/source
 ```
 
@@ -49,8 +53,9 @@ This works best for:
 
 1. Audit the source
 2. Compose the page
-3. Build the site
-4. Polish the delivery
+3. Create a capsule if the catalog is not enough
+4. Build the site
+5. Polish the delivery
 
 ## Read next
 
