@@ -80,7 +80,7 @@ Use this when you have a mirrored site, legacy website, or source export:
 
 Good uses:
 
-- a local mirror made with HTTrack
+- a local mirror of an existing website
 - a legacy WordPress export
 - a static HTML folder
 - a known source URL
