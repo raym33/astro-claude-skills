@@ -2,20 +2,6 @@
 
 Claude Code skills for building high-quality Astro websites from real-world references without falling into generic layouts.
 
-This repository is intentionally generic:
-
-- no client names
-- no brand names from source references
-- no copied site identities
-- no source website URLs
-
-It focuses on a reusable workflow for:
-
-- auditing legacy or mirrored websites
-- planning a capsule-based page structure
-- building premium Astro websites
-- polishing them for delivery
-
 ## Included skills
 
 - `astro-site-context`
