@@ -75,6 +75,12 @@ Or merge only the skills you want:
 cp -R .claude/skills/astro-site-build /path/to/your-project/.claude/skills/
 ```
 
+Global install helper:
+
+```bash
+bash scripts/install-global.sh
+```
+
 ## Recommended usage order
 
 1. `/astro-reference-audit [source-path-or-url]`
@@ -157,6 +163,9 @@ astro-claude-skills/
 │   ├── install-global.md
 │   ├── quickstart.md
 │   └── usage-guide.md
+├── scripts/
+│   ├── install-global.sh
+│   └── uninstall-global.sh
 ├── ROADMAP.md
 ├── README.md
 ├── repo-description.txt

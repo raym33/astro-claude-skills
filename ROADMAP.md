@@ -16,7 +16,6 @@ What already exists:
 What still needs work:
 
 - stronger proof from real use
-- a simpler install path
 - better support for extending the capsule system
 - more resilience when working across longer conversations
 
@@ -85,21 +84,23 @@ Success criteria:
 
 ## Priority 4: Add a simple installer for `~/.claude/skills`
 
+Status: implemented
+
 Why this matters:
 
 - current install instructions are correct, but still manual
 - people coming from social posts want a faster first run
 - a basic installer reduces friction and makes the project feel more complete
 
-Planned work:
+Implemented:
 
-- add a simple install script for personal Claude Code skills
-- support the official global path: `~/.claude/skills/`
-- document how to update or remove the install
+- added a simple install script for personal Claude Code skills
+- supports the official global path: `~/.claude/skills/`
+- documented update and removal flow
 
-Success criteria:
+Result:
 
-- one documented install command or script for global setup
+- one documented install script for global setup
 - one documented project-local install path
 
 ## Secondary improvements

@@ -42,21 +42,28 @@ mkdir -p ~/.claude/skills
 
 ## 4. Install this repository globally
 
-### Option A: Copy the skill folders directly
+### Recommended option: use the installer script
 
 From the root of this repository:
+
+```bash
+bash scripts/install-global.sh
+```
+
+This installs the repository skills into:
+
+```bash
+~/.claude/skills/
+```
+
+The script replaces only the skill directories that belong to this repository.
+
+### Manual option: copy the skill folders directly
 
 ```bash
 mkdir -p ~/.claude/skills
 cp -R .claude/skills/* ~/.claude/skills/
 ```
-
-This is the simplest option.
-
-Use it when:
-
-- you want a quick install
-- you do not care about syncing updates automatically
 
 ## 5. Verify the install
 
@@ -124,12 +131,26 @@ That split works well:
 When the repository changes, update your global copy with:
 
 ```bash
+bash scripts/install-global.sh
+```
+
+Manual alternative:
+
+```bash
 cp -R .claude/skills/* ~/.claude/skills/
 ```
 
-If you use a symlink-based workflow instead, update the source repo and the global install will follow automatically.
+## 9. Remove the global install
 
-## 9. Good safety practice
+To remove the skills installed by this repository:
+
+```bash
+bash scripts/uninstall-global.sh
+```
+
+This removes only the skill directories that belong to this repository.
+
+## 10. Good safety practice
 
 Before installing any Claude Code skill globally:
 
@@ -139,7 +160,7 @@ Before installing any Claude Code skill globally:
 
 Global skills affect every project where Claude Code runs, so they should be treated with the same care as any other reusable automation layer.
 
-## 10. Summary
+## 11. Summary
 
 Global install path:
 
@@ -150,7 +171,7 @@ Global install path:
 Quick install command:
 
 ```bash
-mkdir -p ~/.claude/skills && cp -R .claude/skills/* ~/.claude/skills/
+bash scripts/install-global.sh
 ```
 
 Use global install when you want the same Astro workflow in every project.

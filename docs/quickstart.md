@@ -31,8 +31,7 @@ Then open Claude Code inside your Astro project and use:
 ## Option B: Install globally for all projects
 
 ```bash
-mkdir -p ~/.claude/skills
-cp -R .claude/skills/* ~/.claude/skills/
+bash scripts/install-global.sh
 ```
 
 Then open Claude Code in any Astro project and use the same commands.
