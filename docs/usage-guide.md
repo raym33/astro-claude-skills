@@ -51,6 +51,8 @@ Your Astro project should then contain:
         └── astro-site-polish/
 ```
 
+If you want the skills available across all projects instead of only one repository, use [`install-global.md`](./install-global.md).
+
 ## 4. Understand the skill roles
 
 The suite is split into focused skills:

@@ -5,6 +5,7 @@ Claude Code skills for building high-quality Astro websites from real-world refe
 Step-by-step usage guide:
 
 - [docs/usage-guide.md](./docs/usage-guide.md)
+- [docs/install-global.md](./docs/install-global.md)
 
 ## Included skills
 
@@ -151,6 +152,7 @@ astro-claude-skills/
 ├── examples/
 │   └── screenshots/
 ├── docs/
+│   ├── install-global.md
 │   └── usage-guide.md
 ├── README.md
 ├── repo-description.txt
