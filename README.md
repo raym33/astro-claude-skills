@@ -2,6 +2,10 @@
 
 Claude Code skills for building high-quality Astro websites from real-world references without falling into generic layouts.
 
+Step-by-step usage guide:
+
+- [docs/usage-guide.md](./docs/usage-guide.md)
+
 ## Included skills
 
 - `astro-site-context`
@@ -56,7 +60,7 @@ Some patterns may already exist in Astro. Others may be proven in a sibling bloc
 
 ## Install
 
-Copy the `.claude/skills/` folder into your Astro project root:
+Copy the `.claude` folder into your Astro project root:
 
 ```bash
 cp -R .claude /path/to/your-project/
@@ -74,6 +78,8 @@ cp -R .claude/skills/astro-site-build /path/to/your-project/.claude/skills/
 2. `/astro-capsule-compose [site-type-or-page-goal]`
 3. `/astro-site-build [client-or-source]`
 4. `/astro-site-polish [site-or-route]`
+
+For a full walkthrough, use the step-by-step guide in [`docs/usage-guide.md`](./docs/usage-guide.md).
 
 ## Example outputs
 
@@ -144,6 +150,8 @@ astro-claude-skills/
 │       └── astro-site-polish/
 ├── examples/
 │   └── screenshots/
+├── docs/
+│   └── usage-guide.md
 ├── README.md
 ├── repo-description.txt
 └── release-v0.1.0.md
