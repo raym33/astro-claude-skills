@@ -4,6 +4,7 @@ Claude Code skills for building high-quality Astro websites from real-world refe
 
 Step-by-step usage guide:
 
+- [ROADMAP.md](./ROADMAP.md)
 - [docs/quickstart.md](./docs/quickstart.md)
 - [docs/usage-guide.md](./docs/usage-guide.md)
 - [docs/install-global.md](./docs/install-global.md)
@@ -156,6 +157,7 @@ astro-claude-skills/
 │   ├── install-global.md
 │   ├── quickstart.md
 │   └── usage-guide.md
+├── ROADMAP.md
 ├── README.md
 ├── repo-description.txt
 └── release-v0.1.0.md
