@@ -114,3 +114,7 @@ astro-claude-skills/
 - shipping generic SaaS landing pages
 - preserving broken legacy interactions
 - encoding brand names from source references into the skill set
+
+## License
+
+MIT
