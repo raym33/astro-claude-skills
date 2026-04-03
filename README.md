@@ -75,6 +75,34 @@ cp -R .claude/skills/astro-site-build /path/to/your-project/.claude/skills/
 3. `/astro-site-build [client-or-source]`
 4. `/astro-site-polish [site-or-route]`
 
+## Example outputs
+
+The repository also includes screenshot examples generated from local Astro preview routes using invented businesses and dummy media. They are meant to show visual range, not fixed templates.
+
+### Northstar Grid
+
+Industrial operations platform with a dark technical language.
+
+![Northstar Grid example](./examples/screenshots/northstar-grid.png)
+
+### Elm & Ivory
+
+Quiet editorial direction for premium interiors and hospitality.
+
+![Elm & Ivory example](./examples/screenshots/elm-and-ivory.png)
+
+### HarborCare Clinics
+
+Warm healthcare direction built around clarity and trust.
+
+![HarborCare Clinics example](./examples/screenshots/harborcare-clinics.png)
+
+### Fieldstone Living
+
+Structured residential launch direction for property and development sites.
+
+![Fieldstone Living example](./examples/screenshots/fieldstone-living.png)
+
 ## Repository layout
 
 ```text
@@ -86,6 +114,8 @@ astro-claude-skills/
 │       ├── astro-capsule-compose/
 │       ├── astro-site-build/
 │       └── astro-site-polish/
+├── examples/
+│   └── screenshots/
 ├── README.md
 ├── repo-description.txt
 └── release-v0.1.0.md
