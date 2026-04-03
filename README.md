@@ -79,6 +79,8 @@ cp -R .claude/skills/astro-site-build /path/to/your-project/.claude/skills/
 
 The repository also includes screenshot examples generated from local Astro preview routes using invented businesses and dummy media. They are meant to show visual range, not fixed templates.
 
+### First batch
+
 ### Northstar Grid
 
 Industrial operations platform with a dark technical language.
@@ -102,6 +104,32 @@ Warm healthcare direction built around clarity and trust.
 Structured residential launch direction for property and development sites.
 
 ![Fieldstone Living example](./examples/screenshots/fieldstone-living.png)
+
+### Second batch
+
+### Briar & Stone Counsel
+
+Restrained legal advisory direction built around authority, discretion, and trust.
+
+![Briar & Stone Counsel example](./examples/screenshots/briar-and-stone-counsel.png)
+
+### Brightpath Academy
+
+Brighter education direction built around momentum, admissions, and visible progress.
+
+![Brightpath Academy example](./examples/screenshots/brightpath-academy.png)
+
+### Saffron House
+
+Warm hospitality direction built around atmosphere, guest rhythm, and cinematic presentation.
+
+![Saffron House example](./examples/screenshots/saffron-house-hotel.png)
+
+### Aureline Objects
+
+Luxury commerce direction built around edited collections, private sales, and object-led retail.
+
+![Aureline Objects example](./examples/screenshots/aureline-objects.png)
 
 ## Repository layout
 
