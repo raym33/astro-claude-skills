@@ -108,12 +108,6 @@ astro-claude-skills/
 - institutional sites with clear information architecture
 - migrations from legacy CMS output into Astro
 
-## Not the goal
-
-- cloning source websites literally
-- shipping generic SaaS landing pages
-- preserving broken legacy interactions
-- encoding brand names from source references into the skill set
 
 ## License
 
